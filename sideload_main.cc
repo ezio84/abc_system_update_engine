@@ -74,7 +74,7 @@ class SideloadDaemonState : public DaemonStateInterface,
       // Split the progress bar in two parts for the two stages DOWNLOADING and
       // FINALIZING.
       ReportStatus(base::StringPrintf("ui_print ===================================="));
-      ReportStatus(base::StringPrintf("ui_print Staging the files for Dirty Unicorns"));
+      ReportStatus(base::StringPrintf("ui_print Staging the files for ABC"));
       ReportStatus(base::StringPrintf("ui_print ===================================="));
       ReportStatus(base::StringPrintf(
           "ui_print Step %d/3", status == UpdateStatus::DOWNLOADING ? 1 : 2));
@@ -86,25 +86,16 @@ class SideloadDaemonState : public DaemonStateInterface,
       // FINALIZING.
       ReportStatus(base::StringPrintf("ui_print "));
       ReportStatus(base::StringPrintf("ui_print ======================="));
-      ReportStatus(base::StringPrintf("ui_print THANK YOU FOR FLASHING "));
+      ReportStatus(base::StringPrintf("ui_print You are a karnt (Dave's TM) now "));
       ReportStatus(base::StringPrintf("ui_print ======================="));
       ReportStatus(base::StringPrintf("ui_print "));
-      ReportStatus(base::StringPrintf("ui_print DDDDDDDDDDDDD        UUUUUUU     UUUUUUU "));
-      ReportStatus(base::StringPrintf("ui_print D::::::::::::DDD     U:::::U     U:::::U "));
-      ReportStatus(base::StringPrintf("ui_print D::::::::::::::DD    U:::::U     U:::::U "));
-      ReportStatus(base::StringPrintf("ui_print DDD::::DDDD:::::D    U:::::U     U:::::U "));
-      ReportStatus(base::StringPrintf("ui_print D:::::D    D:::::D   U:::::U     U:::::U "));
-      ReportStatus(base::StringPrintf("ui_print D:::::D    D:::::D   U:::::U     U:::::U "));
-      ReportStatus(base::StringPrintf("ui_print D:::::D    D:::::D   U:::::U     U:::::U "));
-      ReportStatus(base::StringPrintf("ui_print D:::::D    D:::::D   U:::::U     U:::::U "));
-      ReportStatus(base::StringPrintf("ui_print D:::::D    D:::::D   U:::::U     U:::::U "));
-      ReportStatus(base::StringPrintf("ui_print D:::::D    D:::::D   U:::::U     U:::::U "));
-      ReportStatus(base::StringPrintf("ui_print D:::::D    D:::::D   U:::::U     U:::::U "));
-      ReportStatus(base::StringPrintf("ui_print D:::::D    D:::::D   U:::::U     U:::::U "));
-      ReportStatus(base::StringPrintf("ui_print DDD::::DDDD:::::D    U:::::::UUU:::::::U "));
-      ReportStatus(base::StringPrintf("ui_print D::::::::::::::DD     UU:::::::::::::UU "));
-      ReportStatus(base::StringPrintf("ui_print D::::::::::::DDD        UU:::::::::UU "));
-      ReportStatus(base::StringPrintf("ui_print DDDDDDDDDDDDD             UUUUUUUUU "));
+      ReportStatus(base::StringPrintf("ui_print THE   db       7MMmmmYp,   .g8mmmd· "));
+      ReportStatus(base::StringPrintf("ui_print      ;MM:       MM    Yb .dP·      · "));
+      ReportStatus(base::StringPrintf("ui_print     ,V^MM.      MM    dP dM·        "));
+      ReportStatus(base::StringPrintf("ui_print    ,M  ·MM      MM···bg  MM "));
+      ReportStatus(base::StringPrintf("ui_print    AbmmmqMA     MM    ·Y MM.           ____ ____ _     _  "));
+      ReportStatus(base::StringPrintf("ui_print   A·     VML    MM    ,9 ·Mb.     ,·   |__/ |  | | \ / | "));
+      ReportStatus(base::StringPrintf("ui_print .AMA.   .AMMA  JMMmmmd9    ··bmmmd·    |  \ |__| |     |"));
       ReportStatus(base::StringPrintf("ui_print "));
       ReportStatus(base::StringPrintf("ui_print ==========="));
       ReportStatus(base::StringPrintf("ui_print ANDROID 11 "));
